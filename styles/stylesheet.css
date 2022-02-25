@@ -1,0 +1,126 @@
+@import url(d:\Projects\Frontend Mentor\advice-generator\fonts\manrope\stylesheet.css);
+/* Colors */
+/* Font sizes */
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-color: #202632;
+  font-family: 'Manrope', sans-serif;
+  padding: 20px;
+  margin: 0px;
+}
+
+.main {
+  position: relative;
+  background-color: #313a49;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  padding: 40px 50px 60px 50px;
+}
+
+.main h1 {
+  display: block;
+  color: #52ffa8;
+  font-size: 0.7245rem;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.main__heading {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.main blockquote {
+  display: block;
+  margin: 0px;
+  color: #cee3e9;
+  font-size: 1.75rem;
+  font-weight: bold;
+  overflow: hidden;
+  max-height: 100vh;
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
+}
+
+.main__text {
+  margin: 0px;
+  -webkit-transition: all 1.25s ease-out;
+  transition: all 1.25s ease-out;
+}
+
+.main div {
+  display: block;
+  background-position: center;
+}
+
+.main__divider {
+  background-image: url(/images/pattern-divider-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 17px;
+}
+
+.main button {
+  border: none;
+  cursor: pointer;
+}
+
+.main__button {
+  position: absolute;
+  bottom: -28px;
+  left: calc(50% - 28px);
+  border-radius: 50px;
+  background-color: #52ffa8;
+  width: 56px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.main__button:hover {
+  -webkit-box-shadow: 0px 0px 20px #52ffa8;
+          box-shadow: 0px 0px 20px #52ffa8;
+}
+/*# sourceMappingURL=stylesheet.css.map */

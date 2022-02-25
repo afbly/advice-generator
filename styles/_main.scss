@@ -1,0 +1,80 @@
+.main {
+  position: relative;
+  background-color: $grayishBlue;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 50px 60px 50px;
+  // box-shadow: 0 20px 4px 40px rgb(0 0 0 / 3%), 0 20px 4px 80px rgb(0 0 0 / 1%);
+
+  h1 {
+    display: block;
+    color: $neonGreen;
+    font-size: $font-s;
+    margin: 0px;
+    font-weight: bold;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  blockquote {
+    display: block;
+    margin: 0px;
+    color:$lightCyan;
+    font-size: $font-lg;
+    font-weight: bold;
+    overflow: hidden;
+    max-height: 100vh;
+    user-select: auto;
+  }
+
+  &__text {
+    margin: 0px;
+    -webkit-transition: all 1.25s ease-out;
+    -moz-transition: all 1.25s ease-out;
+    transition: all 1.25s ease-out;
+  }
+
+  div {
+    display: block;
+    background-position: center;
+  }
+
+  &__divider {
+    background-image: url(/images/pattern-divider-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 17px;
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+  }
+
+  &__button {
+    position: absolute;
+    bottom: -28px;
+    left: calc(50% - 28px);
+    border-radius: 50px;
+    background-color: $neonGreen;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .8s;
+  }
+
+  &__button:hover {
+    box-shadow: 0px 0px 20px $neonGreen;
+  }
+}

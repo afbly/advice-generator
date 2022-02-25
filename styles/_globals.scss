@@ -1,0 +1,19 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $darkGrayishBlue;
+  font-family: 'Manrope', sans-serif;
+  padding: 20px;
+  margin: 0px;
+}
