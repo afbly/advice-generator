@@ -86,7 +86,7 @@ body {
 }
 
 .main__divider {
-  background-image: url(/images/pattern-divider-desktop.svg);
+  background-image: url(./images/pattern-divider-desktop.svg);
   background-position: center;
   background-repeat: no-repeat;
   height: 17px;
