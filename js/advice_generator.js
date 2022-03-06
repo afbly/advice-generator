@@ -15,7 +15,7 @@ function get_advice() {
     return response.json();
   }).then(advice_data => {
     const ADVICE_OBJ = advice_data.slip;
-    text.innerHTML = ADVICE_OBJ.advice;
+    text.innerHTML = "“" + ADVICE_OBJ.advice + "”";
     id.innerHTML = ADVICE_OBJ.id;
   }).catch(error => {
     console.log(error);

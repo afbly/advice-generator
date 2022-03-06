@@ -16,6 +16,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -57,12 +61,11 @@ body {
 
 .main__heading {
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3.5px;
 }
 
-.main blockquote {
+.main__text {
   display: block;
-  margin: 0px;
   color: #cee3e9;
   font-size: 1.75rem;
   font-weight: bold;
@@ -72,21 +75,14 @@ body {
      -moz-user-select: auto;
       -ms-user-select: auto;
           user-select: auto;
-}
-
-.main__text {
-  margin: 0px;
-  -webkit-transition: all 1.25s ease-out;
-  transition: all 1.25s ease-out;
-}
-
-.main div {
-  display: block;
-  background-position: center;
+  -webkit-transition: all 1.25s ease-out 0s;
+  transition: all 1.25s ease-out 0s;
 }
 
 .main__divider {
-  background-image: url(./images/pattern-divider-desktop.svg);
+  display: block;
+  background-position: center;
+  background-image: url(../images/pattern-divider-desktop.svg);
   background-position: center;
   background-repeat: no-repeat;
   height: 17px;
@@ -122,5 +118,23 @@ body {
 .main__button:hover {
   -webkit-box-shadow: 0px 0px 20px #52ffa8;
           box-shadow: 0px 0px 20px #52ffa8;
+}
+
+.attribution {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px 50px 60px 50px;
+}
+
+.attribution span {
+  display: block;
 }
 /*# sourceMappingURL=stylesheet.css.map */
