@@ -21,34 +21,26 @@
 
   &__heading {
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3.5px;
   }
 
-  blockquote {
+  &__text {
     display: block;
-    margin: 0px;
     color:$lightCyan;
     font-size: $font-lg;
     font-weight: bold;
     overflow: hidden;
     max-height: 100vh;
     user-select: auto;
-  }
-
-  &__text {
-    margin: 0px;
-    -webkit-transition: all 1.25s ease-out;
-    -moz-transition: all 1.25s ease-out;
-    transition: all 1.25s ease-out;
-  }
-
-  div {
-    display: block;
-    background-position: center;
+    -webkit-transition: all 1.25s ease-out 0s;
+    -moz-transition: all 1.25s ease-out 0s;
+    transition: all 1.25s ease-out 0s;
   }
 
   &__divider {
-    background-image: url(./images/pattern-divider-desktop.svg);
+    display: block;
+    background-position: center;
+    background-image: url(../images/pattern-divider-desktop.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 17px;
