@@ -15,6 +15,10 @@ Users should be able to:
 
 ## My process
 
+1. Set up repository.
+2. Write the code for API connection and button function.
+3. Write the index.html and CSS simultaneously.
+
 ### Built with
 
 - Semantic HTML5 markup
